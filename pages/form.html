@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/styles/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="banner">
+
+            <nav id="nav-items">
+                <a href="../index.html">About</a>
+                <a href="./projects.html">Projects</a>
+                <a href="#">Contacts</a>
+            </nav>
+
+            <section id="nametag">
+                <img id="logo" src="../assets/resources/spaceship-dip.png" alt="logo" />
+                <div>
+                    <h1>Tremaine McKinley</h1>
+                    <p>CHALLENGE COMPLETE.</p>
+                </div>
+            </section>
+        </div>
+        <main style="display: flex; justify-content: start; align-items: start;">
+           
+            <section  id="contacts-section" class="section">
+                <form >
+                        <h2>Contact Me</h2>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button type="submit">Send</button>
+                </form>
+
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
